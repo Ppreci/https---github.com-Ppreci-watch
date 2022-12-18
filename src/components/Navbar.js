@@ -1,6 +1,10 @@
 import React from 'react'
-import Links from './Data'
+import Links from '../Data'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
+import {CgProfile}from 'react-icons/cg'
+import {BsCart4}from 'react-icons/bs'
+import {GiHamburgerMenu}from 'react-icons/gi'
 
 const Navbar = () => {
   return (
@@ -11,16 +15,17 @@ const Navbar = () => {
         </div>
         <div className='nav-menu'>
             <ul>
-                {Links.map(Link=>(
+                {Links.map(Linkk=>(
                     <li>
-                        <a href="">{Link.name}</a>
+                        <Link to={Linkk.link}>{Linkk.name}</Link>
                     </li>
                 ))}
             </ul>
         </div>
         <div>
-            <button>Login/Signup</button>
-            <button>Cart Button</button>
+            <CgProfile/>
+            <BsCart4 />
+            <GiHamburgerMenu/>
         </div>
     </div>
     <div className='nav-search'>
