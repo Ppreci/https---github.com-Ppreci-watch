@@ -1,0 +1,47 @@
+.productCard img{
+    width: 100%;;
+}
+
+.productCard{
+    width: 23%;
+    padding: 0px 30px;
+    margin: 10px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+    background: white;
+}
+
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    width: 100%;
+    background: rgb(226, 223, 223);
+}
+
+.addToCart{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    color: gold;
+    font-size: 22px;
+}
+
+.products h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+
+.des h2{
+    font-size: 18px;
+    margin-top: -10px;
+}

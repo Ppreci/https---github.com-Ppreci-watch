@@ -1,5 +1,5 @@
 import React from 'react'
-import Links from '../Data'
+import {Links} from '../Data'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import {CgProfile}from 'react-icons/cg'
@@ -23,9 +23,11 @@ const Navbar = () => {
             </ul>
         </div>
         <div>
-            <CgProfile/>
-            <BsCart4 />
-            <GiHamburgerMenu/>
+            <CgProfile className='profile'/>
+            <BsCart4 className='cart'/>
+        </div>
+        <div className="mobileMenu">
+            <GiHamburgerMenu />
         </div>
     </div>
     <div className='nav-search'>

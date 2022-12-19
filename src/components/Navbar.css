@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    top: 0;
+    width: 100%;
 }
 
 .nav-menu ul{
@@ -28,4 +30,13 @@ a{
     height: 35px;
     
     font-size: 18px;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.profile, .cart{
+    font-size: 30px;
+    margin-right: 10px;
 }
