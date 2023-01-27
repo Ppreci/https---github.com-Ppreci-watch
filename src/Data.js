@@ -1,20 +1,27 @@
-import Blancpain from '../src/Assests/Blancpain.jpg'
-import Breitling from '../src/Assests/Breitling.png'
-import Bulgari from '../src/Assests/Bulgari.png'
-import Frederique from '../src/Assests/Frederique.jpg'
-import HarryWinston from '../src/Assests/Harry Winston.png'
-import Hublot from '../src/Assests/Hublot.jpg'
-import Longines from '../src/Assests/Longines.png'
-import MeisterSinger from '../src/Assests/MeisterSinger.jpg'
-import Omega from '../src/Assests/Omega.jpg'
-import Panerai from '../src/Assests/Panerai.jpg'
-import PatekPhilippe from '../src/Assests/Patek Philippe.jpg'
-import Piaget from '../src/Assests/Piaget.png'
-import Rolex from '../src/Assests/Rolex.jpg'
-import TagHeuer from '../src/Assests/Tag Heuer.jpg'
-import Tudor from '../src/Assests/Tudor.jpg'
-import VacheronConstantin from '../src/Assests/Vacheron Constantin.jpg'
-import Zenith from '../src/Assests/Zenith.jpg'
+import anthony from '../src/Assests/anthony.jpg'
+import anuj from '../src/Assests/anuj.jpg'
+import felix from '../src/Assests/felix.jpg'
+import hassan from '../src/Assests/hassan.jpg'
+import jatin from '../src/Assests/jatin.jpg'
+import joey from '../src/Assests/joey.jpg'
+import pixa from '../src/Assests/pixa.jpg'
+import vedant from '../src/Assests/vedant.jpg'
+import watch1 from '../src/Assests/watch1.jpg'
+import watch4 from '../src/Assests/watch4.jpg'
+import watch5 from '../src/Assests/watch5.jpg'
+import watch6 from '../src/Assests/watch6.jpg'
+import watch7 from '../src/Assests/watch7.jpg'
+import watch8 from '../src/Assests/watch8.jpg'
+import watch9 from '../src/Assests/watch9.jpg'
+import yury from '../src/Assests/yury.jpg'
+import zen from '../src/Assests/zen.jpg'
+import fernando from '../src/Assests/fernando.jpg'
+import banner1 from '../src/Assests/banner1.jpg'
+import banner2 from '../src/Assests/banner2.jpg'
+import banner3 from '../src/Assests/banner3.jpg'
+import banner4 from '../src/Assests/banner4.jpg'
+import banner5 from '../src/Assests/banner5.jpg'
+import banner6 from '../src/Assests/banner6.jpg'
 
 
 import {BsStarFill} from 'react-icons/bs'
@@ -27,111 +34,155 @@ export const Links = [
     {name: 'Home', link:'/'},
     {name: 'About', link:'/about'},
     {name: 'Shop', link:'/shop'},
-    {name: 'Contact', link:'/contact'}
 ];
 
 export const Products= [
     {
-        productImg: Blancpain,
+        id: 1,
+        productImg: fernando,
         title: 'Blancpain',
-        price: '$500',
+        price: 500,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarHalf />]
     },
     {
-        productImg: Breitling,
+        id: 2,
+        productImg: anthony,
         title: 'Breitling',
-        price: '$300',
+        price: 300,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />] 
     },
     {
-        productImg: Bulgari,
+        id: 3,
+        productImg: anuj,
         title: 'Bulgari',
-        price: '$450',
+        price: 450,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
 
     },
     {
-        productImg: Frederique,
+        id: 4,
+        productImg: felix,
         title: 'Frederique',
-        price: '$700',
+        price: 700,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />] 
     },
     {
-        productImg: HarryWinston,
+        id: 5,
+        productImg: hassan,
         title: 'Harry Winston',
-        price: '$600',
+        price: 600,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: Hublot,
+        id: 6,
+        productImg: jatin,
         title: 'Hublot',
-        price: '$325',
+        price: 325,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: Longines,
+        id: 7,
+        productImg: joey,
         title: 'Longines',
-        price: '$620',
+        price: 620,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: MeisterSinger,
+        id: 8,
+        productImg: pixa,
         title: 'MeisterSinger',
-        price: '$420',
+        price: 420,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: Omega,
+        id: 9,
+        productImg: vedant,
         title: 'Omega',
-        price: '$720',
+        price: 720,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: Panerai,
+        id: 10,
+        productImg: watch1,
         title: 'Panerai',
-        price: '$515',
+        price: 515,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: PatekPhilippe,
+        id: 11,
+        productImg: watch4,
         title: 'Patek Philippe',
-        price: '$612',
+        price: 612,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: Piaget,
+        id: 12,
+        productImg: watch5,
         title: 'Piaget',
-        price: '$399',
+        price: 399,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: Rolex,
+        id: 13,
+        productImg: watch6,
         title: 'Rolex',
-        price: '$545',
+        price: 545,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: TagHeuer,
+        id: 14,
+        productImg: watch7,
         title: 'TagHeuer',
-        price: '$660',
+        price: 660,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: Tudor,
+        id: 15,
+        productImg: watch8,
         title: 'Tudor',
-        price: '$598',
+        price: 598,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: VacheronConstantin,
+        id: 16,
+        productImg: watch9,
         title: 'Vacheron Constantin',
-        price: '$800',
+        price: 800,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
     },
     {
-        productImg: Zenith,
+        id: 17,
+        productImg: yury,
         title: 'Zenith',
-        price: '$790',
+        price: 790,
         rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
+    },
+    {
+        id: 17,
+        productImg: zen,
+        title: 'yury',
+        price: 790,
+        rating: [<BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStarFill />, <BsStar />]
+    },
+]
+
+export const bannerSlides = [
+    {
+        image: banner1 
+    },
+    {
+        image: banner2 
+    },
+    {
+        image: banner3
+    },
+    {
+        image: banner4 
+    },
+    {
+        image: banner5 
+    },
+    {
+        image: banner6 
     },
 ]

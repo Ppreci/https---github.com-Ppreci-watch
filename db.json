@@ -1,0 +1,56 @@
+{
+  "user": [
+    {
+      "username": "ubochi_precious",
+      "email": "ubochi_precious@yahoo.com",
+      "password": "aaaaa",
+      "confirmPassword": "aaaaa",
+      "id": 1
+    },
+    {
+      "username": "ubochi_precious",
+      "email": "ubochi_precious@yahoo.com",
+      "password": "11111",
+      "confirmPassword": "11111",
+      "id": 2
+    },
+    {
+      "username": "ubochi_precious",
+      "email": "ubochi_precious@yahoo.com",
+      "password": "lllll",
+      "confirmPassword": "lllll",
+      "id": 3
+    },
+    {
+      "username": "ubochi_precious",
+      "email": "ubochi_precious@yahoo.com",
+      "password": "sssss",
+      "confirmPassword": "sssss",
+      "id": 4
+    },
+    {
+      "username": "ubochi_precious",
+      "email": "ubochi_precious@yahoo.com",
+      "password": "qqqqq",
+      "confirmPassword": "qqqqq",
+      "id": 5
+    },
+    {
+      "username": "ubochi_precious",
+      "email": "ubochi_precious@yahoo.com",
+      "password": "qqqqq",
+      "confirmPassword": "qqqqq",
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "username": "ubochi_precious",
+      "email": "ubochi_precious@yahoo.com",
+      "password": "sssss",
+      "confirmPassword": "sssss",
+      "id": 8
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 import Hero from '../components/Hero'
 import ProductCard from '../components/ProductCard'
-
+import { bannerSlides } from '../Data'
 const Home = () => {
   return (
     <div>
-        <Hero />
+        <Hero slides={bannerSlides}/>
         <ProductCard />
     </div>
   )
